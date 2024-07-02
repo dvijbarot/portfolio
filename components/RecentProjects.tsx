@@ -11,12 +11,13 @@ const RecentProjects = () => {
                 A small selection of {''}
                 <span className='text-purple'> Recent Projects</span>
             </h1>
-            <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
+            <div className='flex flex-wrap items-center justify-center p-4 gap-x-20 gap-y-2 mt-1'>
                 {projects.map(({ id, title, des, img, iconLists, link }) => (
-                    <div key={id} className='sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[500px] w-[80vw]'>
-                        <PinContainer title={title} href={link}>
-                            <div className='relative flex items-center justify-center overflow-hidden lg:h-[30vh] mb-10 sm:w-[500px] w-[80vw] h-[40vh]'>
-                                <div className='relative wifull h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
+                    <div key={id} className='sm:h-[30rem] h-[20rem] lg:min-h-[30rem] flex items-center justify-center sm:w-[500px] w-[80vw]'>
+                        <PinContainer title="Learn more" href={link}>
+
+                            <div className='relative flex items-center justify-center overflow-hidden lg:h-[30vh] mb-3 sm:w-[500px] w-[80vw] h-[40vh]'>
+                                <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                                     <img src="/bg.png" alt='bg-img' />
                                 </div>
                                 <img
