@@ -12,7 +12,17 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../ui/MagicButton";
-import Lottie from "react-lottie";
+// import Lottie from "react-lottie";
+import dynamic from "next/dynamic";
+
+// Also install this npm i --save-dev @types/react-lottie
+let Lottie;
+
+if (process.env.NODE_ENV === "development") {
+    Lottie = require("react-lottie").default;
+} else {
+    Lottie = dynamic(() => import("react-lottie"), { ssr: false });
+}
 
 export const BentoGrid = ({
     className,
