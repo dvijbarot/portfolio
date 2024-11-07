@@ -16,4 +16,4 @@ Welcome to my personal portfolio! 🚀 A collection of my work and journey as a 
 - **Hosting**: ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 ## 🚀 **Demo**
-[**Click here** to view the live portfolio](http://www.dvijbarot.com)
+[**Click here** to view the live portfolio](https://www.dvijbarot.com)
