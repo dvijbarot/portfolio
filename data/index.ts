@@ -153,49 +153,60 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Dvij on critical projects was an absolute pleasure. His technical expertise and calm demeanor under pressure ensured we met our deadlines with outstanding results. His ability to solve complex problems and deliver secure, scalable solutions made a significant impact on our operations.",
+    name: "Dave McLean",
+    title: "Director of Security, NA Region, Sony",
+    img: "/dave.jpeg"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Dvij’s innovative approach to web development and his ability to think critically under pressure are unparalleled. He transformed our project workflow, ensuring high efficiency and minimal downtime. A reliable team member who always goes above and beyond.",
+    name: "Anuj Kumar",
+    title: "Team Lead, TCS",
+    img: "/anuj.jpeg"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Dvij was a turning point for our platform. His sharp problem-solving skills and deep understanding of web technologies were invaluable in scaling our systems. Dvij’s dedication and proactive attitude make him a standout professional in his field.",
+    name: "Sundeep Bose",
+    title: "CTO, Agri10x",
+    img: "/bose.jpeg"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  }
+      "Dvij’s ability to combine technical expertise with clear communication made him an indispensable part of our project. From managing tight deadlines to solving complex development challenges, he consistently exceeded expectations. He is a true professional with a passion for innovation.",
+    name: "Shveta Raina",
+    title: "Founder, Talerang",
+    img: "/shveta.jpeg"
+  },
 ];
+
 
 export const companies = [
   {
     id: 1,
+    name: "Sony Pictures Imageworks",
+    img: "/spi.png",
+    nameImg: "/spi.png",
+  },{
+    id: 2,
     name: "TCS",
     img: "/tcs.svg",
     nameImg: "/tcs.svg",
   },
   {
-    id: 2,
+    id: 3,
     name: "Agri10x",
     img: "/agri10x.jpg",
     nameImg: "/agri10x.jpg",
   },
   {
-    id: 3,
+    id: 4,
     name: "Talerang",
     img: "/talerang.jpeg",
     nameImg: "/Talerang.jpg",
   }
+  
 ];
 
 export const workExperience = [

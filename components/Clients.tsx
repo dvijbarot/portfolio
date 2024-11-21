@@ -16,18 +16,21 @@ const Clients = () => {
                     speed='slow'
 
                 />
-                <div className='flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg: mt-10'>
+                <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 mt-10">
                     {companies.map(({ id, img, name, nameImg }) => (
-                        <div key={id} className='flex md:max-w-60 max-w-32 gap-20'>
-                            {/* <img src={img}
+                        <div
+                            key={id}
+                            className="flex items-center justify-center bg-white rounded-lg overflow-hidden shadow-sm md:w-40 md:h-40 w-32 h-32"
+                        >
+                            <img
+                                src={nameImg}
                                 alt={name}
-                                className='md:w-20 w-25 md:h-16 h-20 ' /> */}
-                            <img src={nameImg}
-                                alt={name}
-                                className='md:w-40 w-45' />
+                                className="object-contain w-auto h-auto max-w-full max-h-full"
+                            />
                         </div>
                     ))}
                 </div>
+
             </div>
         </div>
     )
